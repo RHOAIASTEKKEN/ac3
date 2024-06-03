@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const authRoutes = require('./routes/authRoutes');
 
 const app = express();
-const port = 3000;
+const port = 4000;
 
 // Middleware para parsear el cuerpo de la solicitud como JSON
 app.use(bodyParser.urlencoded({ extended: true }));
